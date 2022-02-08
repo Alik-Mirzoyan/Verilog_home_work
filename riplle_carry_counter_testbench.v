@@ -1,9 +1,8 @@
 module riplle_carry_counter_testbench;
 
-parameter N = 3;
 wire [3:0] q;
 reg clk, res; 
-riplle_carry_counter #(.N(N)) rip_ca_count(.q(q), .clock(clk), .reset(res));
+riplle_carry_counter rip_ca_count(.q(q), .clock(clk), .reset(res));
 
 
 initial
