@@ -9,7 +9,6 @@ initial
 begin
 
 $dumpvars;
-//q = 3'b000;
 
 
 clk <= 1'b0;
