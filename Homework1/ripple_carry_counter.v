@@ -59,6 +59,3 @@ module testbench;
     always #1 clk = ~clk;
 
 endmodule
-
-
-
